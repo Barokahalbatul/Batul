@@ -3,16 +3,14 @@
   text-align: center; /* Membuat teks berada di tengah */
   font-size: 24px; /* Ukuran teks */
   font-weight: bold; /* Ketebalan teks */
-  color: #fff; /* Warna teks */
-  z-index: 1; /* Untuk menempatkan teks di atas latar belakang */
-  position: relative;
+  color: black; /* Warna teks */
 }
 
 /* CSS untuk latar belakang kotak dengan lengkungan di samping */
 .rounded-background {
   width: 300px; /* Lebar latar belakang */
   height: 150px; /* Tinggi latar belakang */
-  background-color: #3498db; /* Warna latar belakang */
+  background-color: white; /* Warna latar belakang */
   border-radius: 25px; /* Membuat lengkungan di samping */
   display: flex;
   align-items: center;
