@@ -3,14 +3,17 @@
   text-align: center; /* Membuat teks berada di tengah */
   font-size: 24px; /* Ukuran teks */
   font-weight: bold; /* Ketebalan teks */
-  color: black; /* Warna teks */
+  color: #000; /* Warna teks (hitam) */
+  position: relative;
+  z-index: 1;
 }
 
 /* CSS untuk latar belakang kotak dengan lengkungan di samping */
 .rounded-background {
   width: 300px; /* Lebar latar belakang */
   height: 150px; /* Tinggi latar belakang */
-  background-color: white; /* Warna latar belakang */
+  background: transparent; /* Latar belakang transparan (tanpa warna) */
+  border: 2px solid #000; /* Garis tepi berwarna hitam */
   border-radius: 25px; /* Membuat lengkungan di samping */
   display: flex;
   align-items: center;
@@ -24,3 +27,4 @@
   text-align: center;
   margin-top: 50px; /* Margin atas untuk memberikan jarak dari atas */
 }
+
