@@ -12,7 +12,7 @@
 .rounded-background {
   width: 300px; /* Lebar latar belakang */
   height: 150px; /* Tinggi latar belakang */
-  background: transparent; /* Latar belakang transparan (tanpa warna) */
+  background-color: #fff; /* Warna latar belakang (putih) */
   border: 2px solid #000; /* Garis tepi berwarna hitam */
   border-radius: 25px; /* Membuat lengkungan di samping */
   display: flex;
