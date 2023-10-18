@@ -4,18 +4,21 @@
   font-size: 24px; /* Ukuran teks */
   font-weight: bold; /* Ketebalan teks */
   color: #fff; /* Warna teks */
+  z-index: 1; /* Untuk menempatkan teks di atas latar belakang */
+  position: relative;
 }
 
-/* CSS untuk latar belakang oval */
-.oval-background {
-  width: 300px; /* Lebar latar belakang oval */
-  height: 150px; /* Tinggi latar belakang oval */
+/* CSS untuk latar belakang kotak dengan lengkungan di samping */
+.rounded-background {
+  width: 300px; /* Lebar latar belakang */
+  height: 150px; /* Tinggi latar belakang */
   background-color: #3498db; /* Warna latar belakang */
-  border-radius: 50%; /* Membuat bentuk oval dengan border-radius */
+  border-radius: 25px; /* Membuat lengkungan di samping */
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto; /* Untuk mengatur latar belakang oval ke tengah */
+  margin: 0 auto; /* Untuk mengatur latar belakang ke tengah */
+  position: relative;
 }
 
 /* CSS untuk container */
@@ -23,4 +26,3 @@
   text-align: center;
   margin-top: 50px; /* Margin atas untuk memberikan jarak dari atas */
 }
-
