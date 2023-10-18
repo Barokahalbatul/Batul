@@ -34,4 +34,18 @@
 	<input type="submit" value="proses">
 </form>
 </body>
+
+<head>
+  <script>
+    function updateStatus() {
+      var statusElement = document.getElementById("status");
+      statusElement.innerHTML = "<em>Data sudah tersimpan</em>";
+    }
+  </script>
+</head>
+<body>
+  <button onclick="updateStatus()">Kirim</button>
+  <p id="status"></p>
+</body>
 </html>
+	
